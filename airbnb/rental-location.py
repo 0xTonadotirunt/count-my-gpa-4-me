@@ -123,4 +123,17 @@ host_num_listings = list(sorted_host_listings.values())
 top_10_host_id = host_id[:10]
 top_10_num_listings = host_num_listings[:10]
 
-#visualisation
+#visualisation : bar graph.png
+
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots()
+
+ax.bar(host_id_listings, host_id_num_listings)
+
+ax.set_ylabel("Number of Listings")
+ax.set_xlabel("Host ID")
+ax.set_title("Listings of top 10 host")
+
+ax.set_xticklabels(host_id_listings, rotation=45)
+plt.show()

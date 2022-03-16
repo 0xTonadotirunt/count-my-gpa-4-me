@@ -1,0 +1,6 @@
+Word Cloud of Ukraine Reddit top comments
+----------------------------------------------
+
+data files = https://www.kaggle.com/akuppps/ukraine-subreddit-top-comments/metadata
+
+

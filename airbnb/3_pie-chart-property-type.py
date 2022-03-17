@@ -1,4 +1,5 @@
 # room type count
+import matplotlib.pyplot as plt
 
 room_type_counts = {}
 

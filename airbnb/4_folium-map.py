@@ -83,7 +83,7 @@ def extract_lat_long_price(database):
     
 extract_lat_long_price(singapore_airbnb_listings)
                          
-
+from folium.plugins import MarkerCluster
                          
 map_folium = folium.Map([1.35255,103.82580], zoom_start=11.4)
 marker_cluster = MarkerCluster().add_to(map_folium)

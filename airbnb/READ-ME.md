@@ -6,7 +6,7 @@ dataset : https://www.kaggle.com/sarvasaga/airbnb-singapore-listing
 Link to my Jupyter file
 -------------------------
 
-https://colab.research.google.com/drive/1AAJUoQ_c4NKmP1OIF6PPGr8S7vezJc6C?usp=sharing
+https://drive.google.com/file/d/1XTRl_ry0H0eLBEET1TOFnE3aAvnVpszT/view?usp=sharing
 
 Images:
 

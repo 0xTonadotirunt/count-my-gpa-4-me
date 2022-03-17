@@ -1,5 +1,6 @@
 # Run this cell to load the Airbnb dataset into a nested list
 import csv
+import pandas as pd
 
 singapore_airbnb_listings = []
 

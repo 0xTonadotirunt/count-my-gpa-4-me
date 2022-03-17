@@ -1,3 +1,16 @@
+# room type count
+
+room_type_counts = {}
+
+for row in singapore_airbnb_listings:
+    room_type = row[13]
+    if room_type in room_type_counts:
+        room_type_counts[room_type] += 1
+    else:
+        room_type_counts[room_type] = 1
+        
+
+
 #Piechart roomtype
 room_type = list(room_type_counts.keys())
 num_room = list(room_type_counts.values())
